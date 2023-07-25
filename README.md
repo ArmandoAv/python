@@ -8,7 +8,7 @@ https://code.visualstudio.com/
 
 When installing Python, the following path must be added to the environment variables in Path
 
-C:\....\Programs\Python\Python38\
+C:\\....\Programs\Python\Python38\
 
 The path will change according to where Python is installed.
 
