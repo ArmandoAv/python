@@ -14,9 +14,7 @@ The path will change according to where Python is installed.
 
 That will recognize the python command from a cmd terminal or from the Visual Studio Code terminal.
 
-In addition, a virtual Python environment was created so that batch files can be executed without having to change the paths.
-
-In the folder that they have assigned for their files, the following command must be executed from a terminal
+If you need a virtual Python environment, the following command must be executed from a terminal
 
 python -m venv environment_name
 
