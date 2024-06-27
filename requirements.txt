@@ -1,0 +1,6 @@
+pandas
+openpyxl
+Faker
+python-decouple
+python-dotenv
+SQLAlchemy
