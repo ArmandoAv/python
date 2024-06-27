@@ -22,7 +22,9 @@ You need to install a SQL server and run the databaseTables.sql script located i
 
 You need to create an .env file in the main folder of this project, with the SQL Server connection parameters
 
+```
 DB_HOST = localhost
 DB_NAME = your_database_name
 DB_USR = your_databse_user
 DB_PWD = your_database_password
+```
