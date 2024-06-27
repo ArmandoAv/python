@@ -4,3 +4,4 @@ Faker
 python-decouple
 python-dotenv
 SQLAlchemy
+pyodbc
