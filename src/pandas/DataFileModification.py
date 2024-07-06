@@ -1,8 +1,11 @@
 import pandas as pd
 
+# Input files
 input_excel_file = '../../data/uber_several_data.xlsx'
 input_sheet1 = 'data1'
 input_sheet2 = 'data2'
+
+# Output files
 output_pass_more_csv_file = '../../data/passenger_more4.csv'
 output_pass_less_csv_file = '../../data/passenger_less4.csv'
 output_amount_more_csv_file = '../../data/amount_more40.csv'

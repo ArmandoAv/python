@@ -1,7 +1,11 @@
 import pandas as pd
 
-input_file1 = '../../data/uber_data1.csv'
-input_file2 = '../../data/uber_data2.csv'
+# Input files
+input_file1 = '../../data/uber_data1.xlsx'
+input_file2 = '../../data/uber_data2.xlsx'
+input_sheet = 'Sheet1'
+
+# Output files
 output_csv_file = '../../data/uber_data.csv'
 output_excel_file = '../../data/uber_data.xlsx'
 sheet_file = 'data'
@@ -10,8 +14,8 @@ sheet_several_file1 = 'data1'
 sheet_several_file2 = 'data2'
 
 # Read the files with headers
-df1 = pd.read_csv(input_file1, header = 0)
-df2 = pd.read_csv(input_file2, header = 0)
+df1 = pd.read_excel(input_file1, sheet_name = input_sheet, header = 0)
+df2 = pd.read_excel(input_file2, sheet_name = input_sheet, header = 0)
 
 # Show rows
 print("The first DataFrame is:")
